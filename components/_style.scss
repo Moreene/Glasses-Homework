@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.title-font {
+    font-size: 24px;
+
+    @media (min-width: 768px) {
+        font-size: 48px;
+    }
+}
