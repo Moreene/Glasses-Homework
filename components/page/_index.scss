@@ -1,0 +1,195 @@
+// banner
+.banner {
+    background-image: url("./images/home-header-sm.png");
+    width: 100%;
+    height: 396px;
+
+    @include pad {
+        width: 100%;
+        height: 787px;
+    }
+
+    @include pc {
+        background-image: url("./images/home-header.png");
+    }
+}
+
+.slogan-one {
+    @include pad {
+        font-size: 36px;
+    }
+}
+
+.slogan-two {
+    font-size: 24px;
+
+    @include pad {
+        font-size: 64px;
+    }
+}
+
+.banner-btn {
+    color: $white;
+    background-color: $primary;
+    padding: 5px 12px;
+
+    &:hover {
+        color: $pink;
+    }
+}
+
+// 專業的心
+.intro {
+    padding: 40px 0;
+
+    @include pad {
+        padding: 80px 0;
+    }
+}
+
+.intro-slogan {
+    @include pad {
+        font-size: 48px;
+    }
+}
+
+.title {
+    font-size: 24px;
+}
+
+.card-icon {
+    width: 83px;
+    height: 83px;
+}
+
+// 經典系列
+.classic-content {
+    padding: 40px 0;
+
+    @include pad {
+        padding: 80px 0;
+    }
+}
+
+.classic-card img {
+    width: 348px;
+    height: 100%;
+
+    @include pad {
+        width: 336px;
+        height: 100%;
+    }
+
+    @include pc {
+        width: 416px;
+        height: 100%;
+    }
+}
+
+.classic-card h3 {
+    font-size: 36px;
+
+    @include mobile {
+        font-size: 48px;
+    }
+}
+
+.classic-title {
+    @include pad {
+        font-size: 48px;
+    }
+}
+
+// 聯名設計
+.co-branding {
+    background-image: url("./images/index-bg-sm.png");
+    width: 100%;
+}
+
+.branding-content {
+    padding: 40px 0;
+
+    @include pad {
+        padding: 80px 0;
+    }
+}
+
+.branding-card {
+    width: 256px;
+
+    @include mobile {
+        width: 348px;
+    }
+
+    @include pad {
+        width: 696px;
+    }
+
+    @include pc {
+        width: 648px;
+    }
+}
+
+.branding-card img {
+    @include pad {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+    }
+}
+
+.branding-card-title {
+    font-size: 36px;
+    background-color: $white;
+
+    @include mobile {
+        font-size: 48px;
+    }
+}
+
+// 顧客推薦
+.customer {
+    padding: 40px 0;
+
+    @include pad {
+        padding: 80px 0;
+    }
+}
+
+.customer-card {
+    box-shadow: 0px 2px 6px #00000029;
+}
+
+.card-info{
+    height: 153px;
+}
+
+.card-date {
+    font-size: 14px;
+    color: $gray-600;
+}
+
+// 聯絡我們
+.contact {
+    padding: 40px 0;
+
+    @include pad {
+        padding: 80px 0;
+    }
+}
+
+textarea {
+    resize: none;
+}
+
+.submitBtn {
+
+    @include mobile {
+        padding: 16px 142px;
+        margin-top: 32px;
+    }
+
+    @include pc {
+        padding: 16px 176px;
+    }
+}

@@ -1,0 +1,42 @@
+.footer-content {
+    padding: 24px 0;
+
+    @include pad {
+        padding: 48px 0 40px 0;
+    }
+
+    @include pc {
+        padding: 48px 0 32px 0;
+    }
+}
+
+.footer-link {
+    color: $white;
+
+    &:hover {
+        color: $pink;
+    }
+}
+
+.info-icon {
+    margin-right: 11px;
+}
+
+.media-icon {
+    width: 24px;
+    height: 24px;
+
+    @include pad {
+        width: 40px;
+        height: 40px;
+    }
+
+    @include pc {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.border {
+    margin: 24px 0 16px 0;
+}
